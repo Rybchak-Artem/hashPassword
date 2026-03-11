@@ -1,12 +1,10 @@
 # What does this code do
 
-A database that can add new users and delete them. The code can also output a list.
+The code compares the passwords in the database and the one you entered. If the passwords match, it displays "Correct password", if not, it displays "Incorrect password". Also, if the password is not yet saved in the database, the code stores the first one entered.
+
 
 ## How to start
 
-- Download modules `npm i pg` and `npm i dotenv`
-- You can type `node db.js help` to see a list of commands you can use to manage the database.
-
-<br><br><br><br><br><br><br><br><br><br>
-
-<p align="right"><sub><sup>я дуже радий що нарешті розібрався в цьому шедеврі людства під назвою PgSQL :D</sup></sub></p>
+- To run the code, you need to have a file in txt format (password.txt) 
+- Download module `npm i bcrypt`
+- And write in the console `node (Path to your file) (your password)`
